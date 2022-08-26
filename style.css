@@ -95,7 +95,7 @@ select {
     width:14px;
     height:12%;
     position:absolute;
-    right:7px;
+    right:15px;
     pointer-events: none;
     /* background:red; */
 }
@@ -159,46 +159,23 @@ select {
     border-radius:  0 0 10px 0px; 
 }
 
-@media screen and (max-width:700px){
-    .scheme-btn{
-        font-size:10px;
-    }
-
-    select{
-        font-size:10px; 
-    }
-
-    .option{
-        font-size:10px;
-    }
-
-    .arrow{
-        display:none;
+@media screen and (max-width:1000px){
+    .container{
+        width: 100vw;
+        height: 100vh;
     }
     header{
-        height:15%;
-
+        height:8%;
     }
-    .color-code{
-        font-size:10px;
+    .scheme-container{
+        height:92%;
     }
 }
 
 
-@media screen and (max-height:300px){
-    .scheme-btn{
-        font-size:5px;
-    }
-
-    select{
-        font-size:5px; 
-    }
-
-    .option{
-        font-size:10px;
-    }
-
-    .arrow{
-        display:none;
+@media screen and (max-height:500px){
+    .container{
+        width: 100vw;
+        height: 100vh;
     }
 }
